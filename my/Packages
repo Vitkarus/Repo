@@ -1,0 +1,14 @@
+Package: com.vitkarus.progressday
+Name: Progressday
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Useful
+Maintainer: Vitkarus <nikitinskiy.viktor@gmail.com>
+Author: Vitkarus <nikitinskiy.viktor@gmail.com>
+Section: Universal Widgets
+Depends: com.matchstic.xenhtml
+Filename: debs/Progressday.deb
+Size: 14056
+MD5sum: f6fe0313612d5bf159dbc8117fbf2e00
+SHA1: 689105514388a747b7ec00502d5f190083cfa455
+SHA256: 64bb6b4fc20c9e32a0e66f0199d4dbafcf7c38027605761a6328d251a73f019d
