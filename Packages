@@ -2,7 +2,6 @@ Package: com.vitkarus.progressday
 Version: 1.0
 Section: Tweaks
 Maintainer: Vitkarus <nikitinskiy.viktor@gmail.com>
-Depends: com.matchstic.xenhtml
 Architecture: iphoneos-arm
 Filename: ./debs/Progressday.deb
 Size: 14056
