@@ -1,7 +1,27 @@
 <!DOCTYPE html>
 <html>
-<body>
-<h1>Hello there</h1>
-<p>Vitkarus Repo</p>
-</body>
+    <!-- <meta name="viewport" content="width=200px, initial-scale=2"> -->
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script> 
+    </head>
+    <body onload="changeLogo(), setTimeout(addButtons, 650, 0), setTimeout(addButtons, 1150, 1)">
+        <div class="logo-container">
+            <!-- <div class="logo-text">Viktor<br>Nikitinskiy</div> -->
+            <div class="logo logo-hidden logo-cross" id="logo">
+                <div class="logo-V1">                        
+                    <div class="logo-V2"></div>
+                </div>
+                <div class="logo-N1">
+                    <div class="logo-N2">
+                        <div class="logo-N3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <a class="button" id="button0" href="cydia://url/https://cydia.saurik.com/api/share#?source=https://viktor.graphics/repo"></a>
+            <a class="button" id="button1" href="https://viktor.graphics"></a>
+        </div>
+    </body>
 </html>
