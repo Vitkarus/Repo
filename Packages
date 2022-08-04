@@ -1,0 +1,11 @@
+Package: com.vitkarus.progressday
+Version: 1.0
+Section: Tweaks
+Maintainer: Vitkarus <nikitinskiy.viktor@gmail.com>
+Architecture: iphoneos-arm
+Filename: debs/Progressday.deb
+Size: 14056
+MD5sum: 3c3a9272de868ed03523fd1dbda75b15
+Description: Test
+Name: Progressday
+Author: Vitkarus <nikitinskiy.viktor@gmail.com>
