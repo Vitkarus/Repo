@@ -6,6 +6,9 @@ Architecture: iphoneos-arm
 Filename: debs/Progressday.deb
 Size: 14056
 MD5sum: 3c3a9272de868ed03523fd1dbda75b15
+SHA512: 7da6d034acf6b418cc4c87d2b74d054bd382e53e92233b9c319ae8c46822778d4913ba5a3be6d901ee338caf24cc37afc4e30368fec522c3c06a9bb47ec86a63
+SHA256: 35fc9e03b5e3621b13aa20e7eac34119dc0ceb1dac60016a4b0620b45ae7e48d
+SHA1: 4a843d3bb37b3c75197e0d36dde9c2f386d28587
 Description: Test
 Name: Progressday
 Author: Vitkarus <nikitinskiy.viktor@gmail.com>
