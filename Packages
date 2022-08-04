@@ -5,10 +5,10 @@ Maintainer: Vitkarus <nikitinskiy.viktor@gmail.com>
 Architecture: iphoneos-arm
 Filename: debs/Progressday.deb
 Size: 12808
-MD5sum: 3c3a9272de868ed03523fd1dbda75b15
-SHA512: 7da6d034acf6b418cc4c87d2b74d054bd382e53e92233b9c319ae8c46822778d4913ba5a3be6d901ee338caf24cc37afc4e30368fec522c3c06a9bb47ec86a63
-SHA256: 35fc9e03b5e3621b13aa20e7eac34119dc0ceb1dac60016a4b0620b45ae7e48d
-SHA1: 4a843d3bb37b3c75197e0d36dde9c2f386d28587
+MD5sum: c2698a8baaf3326960b9aa59054e4b24
+SHA512: bf275134cc1d210e79ab33e43d616bec98338c2c18af282df8ed40888a3cbdbbf6b0258a3ba5877734e8a64b57aef3e237a1643e6d9fce40b0d25236175338d1
+SHA256: 1784ffe94539eb9badcdcfadf72e902d098928a4f7c26f2e16c0d9b2e15916a1
+SHA1: 2909581aace5e94b781b81b54379302f46142b7c
 Description: Test
 Name: Progressday
 Author: Vitkarus <nikitinskiy.viktor@gmail.com>
