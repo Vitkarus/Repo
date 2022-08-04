@@ -4,7 +4,7 @@ Section: Tweaks
 Maintainer: Vitkarus <nikitinskiy.viktor@gmail.com>
 Architecture: iphoneos-arm
 Filename: debs/Progressday.deb
-Size: 12808
+Size: 12844
 MD5sum: c2698a8baaf3326960b9aa59054e4b24
 SHA512: bf275134cc1d210e79ab33e43d616bec98338c2c18af282df8ed40888a3cbdbbf6b0258a3ba5877734e8a64b57aef3e237a1643e6d9fce40b0d25236175338d1
 SHA256: 1784ffe94539eb9badcdcfadf72e902d098928a4f7c26f2e16c0d9b2e15916a1
