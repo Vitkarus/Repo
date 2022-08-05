@@ -14,7 +14,6 @@
 
     --close-button-size: 600px;
 
-    --logo-pressing-speed: 0.3s;
   --logo-V-speed: 1s;
   --logo-N-speed: 0.66s;
 }
@@ -23,8 +22,6 @@
     font-family: "Square721";
     src: url("assets/fonts/square721.woff2") format("woff2");
 }
-
-  
 * 
 {
   margin: 0;
@@ -52,13 +49,6 @@ body
   position: absolute;
   height: 100%;
   width: 100%;
-  max-width: var(--max-webpage-width);
-  overflow: hidden;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: end; 
 }
 .logo-container
 {
@@ -68,23 +58,12 @@ body
     left: var(--frame-margin);
     top: var(--frame-margin);
 
-    flex-shrink: 0;
-
-    /* transform: translateY(100px); */
-
-    /* animation: slide; */
     animation-duration: 2s;
     animation-delay: 1s;
     animation-fill-mode: forwards;
 }
+@keyframes slide {to {transform: scale(0.3) translateX(-1000px) translateY(-50vh);}}
 
-@keyframes slide 
-{
-
-    to {
-        transform: scale(0.3) translateX(-1000px) translateY(-50vh);
-    }
-  }
 .logo
 {
     --leg-N: calc((var(--logo-longness-N) - var(--logo-thikness)) * 0.707);
@@ -93,19 +72,6 @@ body
     position: absolute;
     top: 45%;
 }
-{
-    from {
-      transform: translateY(50px);
-      opacity: 0;
-      filter: blur(10px);
-    }
-  
-    to {
-        transform: translateY(0px);
-        opacity: 1;
-        filter: blur(0px);
-    }
-  }
 /* ===== L A T T E R S ===== */
 
 /* === V === */
@@ -171,7 +137,6 @@ body
 /* === врапперы === */
 .logo-hidden > div
 {
-    /* height: 0; */
     opacity: 0;
     filter: blur(10px);
 }
@@ -196,7 +161,6 @@ body
 .logo-cross > div > div, .logo-cross > div > div > div
 {
     transform-origin: left;
-    /* height: 0; */
     opacity: 0;
     filter: blur(10px);
     transition: inherit;
@@ -206,33 +170,34 @@ body
 
 .button
 {
-    margin-left: 100px;
-    /* margin-top: 100px; */
-
-    position: relative;
-    bottom: 0;
-    height: 150px;
-    width: 100%;
+    position: absolute;
+    bottom: 60px;
+    left: 0;
+    height: fit-content;
+    width: fit-content;
 
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-
-    /* transform: translateY(30vh); */
 }
+.button:first-child{transform: translateY(-100%) translate(0, -40px);}
+
 .button > div 
 {
     font-family: "Square721";
     font-size: 70px;
     transform: translateX(-50px);
+    text-shadow:  -1px  1px 2px white,
+				   1px  1px 2px white,
+				   1px -1px 0   white,
+				  -1px -1px 0   white;
+
     animation: slidein;
     animation-duration: 1s;
     animation-fill-mode: forwards;
 }
-.space
-{
-    width: 25px;
-}
+.space{width: 25px;}
+.space:first-child{width: 60px;}
 
 @keyframes slidein 
 {
@@ -249,14 +214,25 @@ body
     }
   }
   
-  @media (prefers-color-scheme: dark) {
-    body {
+@media (prefers-color-scheme: dark) 
+{
+    body 
+    {
       background: black;
     }
-    body a {
+    body a 
+    {
       color: white;
     }
-    .logo-N1, .logo-N2, .logo-N3, .logo-V1, .logo-V2{
+    .logo-N1, .logo-N2, .logo-N3, .logo-V1, .logo-V2
+    {
         background: white;
     }
-  }
+    .button > div 
+    {
+        text-shadow: -1px  1px 2px black,
+				      1px  1px 2px black,
+				      1px -1px 0   black,
+				     -1px -1px 0   black;
+    }
+}
